@@ -11,8 +11,6 @@ public class Main {
 		System.out.println("Enter name to search: ");
 		String searchName = scanner.nextLine();
 		
-		boolean isFound =false;
-		
 		for(int i=0; i< employees.length; i++) 
 		{
 			if(employees[i].equals(searchName)) {
